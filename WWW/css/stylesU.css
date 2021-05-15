@@ -1,0 +1,18 @@
+table{
+ padding-left: 250px;
+ padding-right: 180px;
+}
+th{
+    padding-right: 80px;
+    font-family: sans-serif;
+}
+h1{
+    padding-left: 555px;
+    color:rgb(1, 1, 82);
+}
+img{
+    border: 5px solid black;
+}
+a{
+    float:right;
+}
