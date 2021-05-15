@@ -4,7 +4,8 @@ table{
 }
 th{
     padding-right: 80px;
-    font-family: sans-serif;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
 }
 h1{
     padding-left: 555px;
@@ -15,4 +16,11 @@ img{
 }
 a{
     float:right;
+}
+p{
+    padding-left: 600px;
+    color:crimson;
+}
+#fot{
+    background:darkgray;
 }
