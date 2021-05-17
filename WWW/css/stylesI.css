@@ -177,6 +177,10 @@ html {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
+
+  .features h4 {
+    text-align: center;
+  }
   
   .features .cards {
     display: -webkit-box;
