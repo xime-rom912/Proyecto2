@@ -68,7 +68,7 @@ Version 1.0.1
 
 Este proyecto no tiene licencia.
 
-## Acknowledgments
+## Agradecimientos
 
 * Gracias a todos los conocimientos otorgados por el profesor, nos ayudo a concretar todos los puntos de este proyecto y tambien a las grabaciones que nos ayudaron a recordar conceptos necesarios..
 
