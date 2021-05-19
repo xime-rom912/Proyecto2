@@ -1,0 +1,96 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.nav-container {
+    background: #070707;
+}
+
+body {
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+}
+  
+h2 {
+    font-size: 7rem;
+    font-family:  'Times', cursive;
+    font-weight: lighter;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+  
+p {
+    font-family:  'Times', cursive;
+    font-size: 2rem;
+
+    padding-left: 100px;
+}
+  
+body {
+    background:rgb(53, 52, 52);
+}
+
+nav {
+    width: 80%;
+    margin: auto;
+    min-height: 10vh;
+    padding: 3rem 0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+  
+h3 {
+    font-size: 3rem;
+    font-family: 'Lobster', cursive;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+img[src]{
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+    
+#content{
+    float:left;
+    width:50%;
+
+}
+
+aside{
+    float:left;
+    width: 50%;
+    min-height: 500px;
+    padding: 10 px;
+}
+
+header{
+    text-align: center;
+}
