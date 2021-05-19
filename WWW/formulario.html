@@ -3,23 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <script>
+        registro = () =>{
+            alert("Datos enviados. Lo contactaremos pronto, gracias!");
+        }
+    </script>
 </head>
 <body>
-    <form method="post" action="validar.php">
+    <form method="post" action="/enviar">
 
         <p>Nombre:</p>
-        <input type="text" name="name" required>
+        <input type="text" name="name" id="name" required>
 
         <p>Correo:</p>
-        <input type="email" name="email"required>
+        <input type="email" name="email" id="email"required>
 
         <p>Asunto:</p>
-        <input type="text" name="asunto">
-
+        <input type="text" name="asunto" id="asunto" required>
         <hr>
 
-        <input type="submit" value="Enviar datos">
-    </form>
+        <input type="submit" value="Enviar datos" onclick="registro()">
     </form>
 </body>
 </html>
