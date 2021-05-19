@@ -4,11 +4,15 @@ Proyecto del segundo parcial de la matera Desarrollo Basado en Plataformas. Este
 
 ## Empezando
 
-Puedes obtener una copia de este proyecto descargando la imagen de docker que adjuntamos en este repositorio.
+Puedes obtener una copia de este proyecto descargando la imagen de docker que adjuntamos en este repositorio. 
 
 ### Prerequisitos
 
-Se necesita instalar docker para poder descargar la imagen. Se puede intstalar desde la terminal con los siguientes comandos: 
+Se tiene que contar con alguna version de Node js y Docker, así como descargar el repositorio o la imagen de docker para tener los archivos en el ordenador y posteriormente desplegarlo en la terminal.
+
+### Instalación
+
+Se necesita instalar docker para poder descargar la imagen. Se puede instalar desde la terminal con los siguientes comandos: 
 ```
 apt-get update
 ```
@@ -16,35 +20,31 @@ apt-get update
 apt-get install docker
 ```
 
-### Instalación
-
-Se tiene que descargar el repositorio o la imagen de docker para tener los archivos en el ordenador y posteriormente desplegarlo en la terminal.
+Se necesita instalar nodejs para poder correr el servidor. Se puede instalar desde la terminal con los siguientes comandos: 
+```
+apt-get update
+```
+```
+apt-get install nodejs
+```
 
 ## Ejecución las pruebas
 
-Explain how to run the automated tests for this system
-
-### Análisis la prueba
-
-Explain what these tests test and why
-
+Para correr el servidor, se utilizan los siguientes comandos en terminal:
 ```
-Give an example
+node app.js
 ```
-
-### Prueba de estilo de codificacion
-
-Explain what these tests test and why
-
+Con el servidor ejecutandose, podemos acceder al sitio web por medio del navegador en la siguiente dirección;
 ```
-Give an example
+http://localhost:8888
 ```
 
-## Despliegue
+## Construido con
 
-Add additional notes about how to deploy this on a live system
+* [Visual Studio Code](https://code.visualstudio.com/) - Editor de texto
+* [Node js](https://nodejs.org/es/) - Entorno de ejecución para JavaScript
 
-## Built With
+## Lenguajes
 
 * HTML
 * CSS
@@ -56,7 +56,7 @@ Sin contribuciones exteriores
 
 ## Versiones
 
-
+Version 1.0.1
 
 ## Autores
 
@@ -68,6 +68,8 @@ Sin contribuciones exteriores
 
 Este proyecto no tiene licencia.
 
-## Acknowledgments
+## Agradecimientos
 
-* Gracias a 
+* Gracias a todos los conocimientos otorgados por el profesor, nos ayudo a concretar todos los puntos de este proyecto y tambien a las grabaciones que nos ayudaron a recordar conceptos necesarios..
+
+* Agradecimientos al profesor por tambien ayudarnos con las dudas que teniamos con el proyecto ya sea cuando las preguntabamos en clase o cuando lo preguntabamos por slacks y contestar a tiempo.
