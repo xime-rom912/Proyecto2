@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/xime-rom912/Proyecto2/issues"
   },
-  "homepage": "https://github.com/xime-rom912/Proyecto2#readme"
+  "homepage": "https://github.com/xime-rom912/Proyecto2#readme",
+  "dependencies": {
+    "ronin-mocks": "^0.1.6",
+    "ronin-server": "^0.1.3"
+  }
 }
