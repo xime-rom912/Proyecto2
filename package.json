@@ -1,0 +1,23 @@
+{
+  "name": "proyecto2",
+  "version": "1.0.0",
+  "description": "Sitio web de una empresa de renta de autos",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xime-rom912/Proyecto2.git"
+  },
+  "keywords": [
+    "nodejs",
+    "html"
+  ],
+  "author": "Melissa García Mendoza, Ximena Romero Chávez, Raul Alejandro Díaz Gutiérrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xime-rom912/Proyecto2/issues"
+  },
+  "homepage": "https://github.com/xime-rom912/Proyecto2#readme"
+}
