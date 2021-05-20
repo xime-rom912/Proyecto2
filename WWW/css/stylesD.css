@@ -143,7 +143,7 @@ ul.slider li img {
 }
 
 ul.slider li:first-child {
-  opacity: 0; /*Mostramos el primer <li>*/
+  opacity: 1; /*Mostramos el primer <li>*/
 }
 
 ul.slider li:target {
