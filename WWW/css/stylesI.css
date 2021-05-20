@@ -106,26 +106,6 @@ nav #logo {
 	position: relative;
 }
 
-/*nav #logo::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 10rem;
-    height: 4.5rem;
-    background: #a7a7a7;
-    border-radius: 11%;
-    -webkit-transform: translate(-5%, -12%);
-            transform: translate(-5%, -12%);
-    mix-blend-mode: screen;
-  }*/
-
-/*nav .ubi {
-    background: #a7a7a7;
-    padding: 1rem 2rem;
-    border-radius: 2rem;
-  }*/
-
 .showcase {
 	display: -ms-grid;
 	display: grid;
