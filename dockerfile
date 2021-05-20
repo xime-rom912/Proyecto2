@@ -1,4 +1,22 @@
 FROM node
 ENV HOME /root 
 COPY ./app.js ./app.js
+ADD ./WWW/acerca.html ./WWW/acerca.html
+ADD ./WWW/detalles.html ./WWW/detalles.html
+ADD ./WWW/formulario.html ./WWW/formulario.html
+ADD ./WWW/index.html ./WWW/index.html
+ADD ./WWW/ubi.html ./WWW/ubi.html
+ADD ./WWW/acerca.html ./WWW/acerca.html
+ADD ./WWW/ubi.html ./WWW/ubi.html
+ADD ./WWW/css/sylesA.css ./WWW/css/sylesA.css 
+ADD ./WWW/css/sylesD.css ./WWW/css/sylesD.css 
+ADD ./WWW/css/sylesI.css ./WWW/css/sylesI.css 
+ADD ./WWW/css/sylesU.css ./WWW/css/sylesU.css
+ADD ./WWW/datos/datos.txt  ./WWW/datos/datos.txt 
+ADD ./WWW/images/iconoCarrito.jpg  ./WWW/images/iconoCarrito.jpg 
+ADD ./WWW/images/logoTesla.jpg  ./WWW/images/logoTesla.jpg 
+ADD ./WWW/images/modelo1.jpg  ./WWW/images/modelo1.jpg 
+ADD ./WWW/images/modelo1P.jpg  ./WWW/images/modelo1P.jpg 
+ADD ./WWW/images/modelo2.jpg  ./WWW/images/modelo2.jpg 
+ADD ./WWW/images/modelo2.jpg  ./WWW/images/modelo2.jpg 
 CMD node app.js
