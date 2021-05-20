@@ -1,179 +1,179 @@
 html {
-  font-size: 62.5%;
+	font-size: 62.5%;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  color: white;
-  font-family: "Montserrat", sans-serif;
+	color: white;
+	font-family: "Montserrat", sans-serif;
 }
 
 h1 {
-  font-size: 2.5rem;
-  font-family: "Lobster", cursive;
-  font-weight: lighter;
+	font-size: 2.5rem;
+	font-family: "Lobster", cursive;
+	font-weight: lighter;
 }
 
 p {
-  font-size: 2.5rem;
+	font-size: 2.5rem;
 }
 
 li {
-  font-size: 2rem;
+	font-size: 2rem;
 }
 
 a {
-  color: white;
-  text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
 
 .nav-container {
-  background: #070707;
+	background: #070707;
 }
 
 nav {
-  width: 80%;
-  margin: auto;
-  min-height: 10vh;
-  padding: 3rem 0rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+	width: 80%;
+	margin: auto;
+	min-height: 10vh;
+	padding: 3rem 0rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  list-style: none;
-  opacity: 1;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	list-style: none;
+	opacity: 1;
 }
 
 nav ul li a {
-  color: #fff;
-  font-size: 18px;
-  padding: 10px;
-  border-radius: 2px;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px;
+	border-radius: 2px;
 }
 
 nav ul li a:hover {
-  color: #000;
-  background: #fff;
-  text-decoration: none;
-  border-radius: 2rem;
+	color: #000;
+	background: #fff;
+	text-decoration: none;
+	border-radius: 2rem;
 }
 
 nav #logo {
-  -webkit-box-flex: 2;
-  -ms-flex: 2;
-  flex: 2;
-  position: relative;
-  font-size: 3rem;
+	-webkit-box-flex: 2;
+	-ms-flex: 2;
+	flex: 2;
+	position: relative;
+	font-size: 3rem;
 }
 
 .home {
-  background: radial-gradient(#525252, #131313);
-  min-height: 90vh;
+	background: radial-gradient(#525252, #131313);
+	min-height: 90vh;
 }
 
 .home .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  min-height: 90vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	min-height: 90vh;
 }
 
 ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 ul.slider {
-  position: absolute;
-  height: 400px;
-  width: 680px;
+	position: absolute;
+	height: 400px;
+	width: 680px;
 }
 
 ul.slider li {
-  position: absolute;
-  opacity: 0;
-  width: auto;
-  height: auto;
-  transition: opacity 0.5s;
+	position: absolute;
+	opacity: 0;
+	width: auto;
+	height: auto;
+	transition: opacity 0.5s;
 }
 
 ul.slider li img {
-  background: lightblue;
-  width: 700px;
-  height: 400px;
-  object-fit: contain;
-  border: black;
-  border-radius: 5px;
+	background: lightblue;
+	width: 700px;
+	height: 400px;
+	object-fit: contain;
+	border: black;
+	border-radius: 5px;
 }
 
 ul.slider li:first-child {
-  opacity: 1; /*Mostramos el primer <li>*/
+	opacity: 1; /*Mostramos el primer <li>*/
 }
 
 ul.slider li:target {
-  opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+	opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
 }
 
 .home .menu {
-  padding-top: 450px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+	padding-top: 450px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
 }
 
 .home .menu li {
-  background: white;
-  border-radius: 100%;
-  width: 30px;
-  height: 30px;
-  margin-left: 10px;
+	background: white;
+	border-radius: 100%;
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
 }
 
 .home .menu li:hover {
-  background: lightblue;
-  border-radius: 100%;
-  width: 30px;
-  height: 30px;
+	background: lightblue;
+	border-radius: 100%;
+	width: 30px;
+	height: 30px;
 }
 
 .home .menu li a {
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
 }
