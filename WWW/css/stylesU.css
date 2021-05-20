@@ -1,113 +1,120 @@
 html {
-    font-size: 62.5%;
-    }
-  
-    * {
-        margin: 0;
-        padding: 0;
-        -webkit-box-sizing: border-box;
-                box-sizing: border-box;
-    }
-    table{
-        padding-left: 250px;
-        padding-right: 180px;
-    }
-    th{
-        padding-right: 80px;
-        font-size: 18px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    img{
-        border: 5px solid black;
-    }
-    body{
-        background: radial-gradient(#525252, #131313);
-    }
-    
-    h1 {
-        font-size: 25px;
-        font-family: 'Lobster', cursive;
-        font-weight: lighter;
-        color: white;
-    }
-    
-    h2 {
-        font-size: 30px;
-        padding-left: 555px;
-        color: white;
-        font-family:Georgia, 'Times New Roman', Times, serif;
-        padding-top: 25px;
-        padding-bottom: 25px;
-    }
-    p {
-        font-size: 2.5rem;
-    }
-    
-    li {
-        font-size: 2rem;
-    }
-    
-    a {
-        color: white;
-        text-decoration: none;
-    }
-    .nav-container {
-        background: #070707;
-    }
-    
-    nav {
-        width: 80%;
-        margin: auto;
-        min-height: 10vh;
-        padding: 3rem 0rem;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-    }
-    
-    nav ul {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
-        -webkit-box-flex: 1;
-            -ms-flex: 1;
-                flex: 1;
-        list-style: none;
-    }
-    
-    nav #logo {
-        -webkit-box-flex: 2;
-            -ms-flex: 2;
-                flex: 2;
-        position: relative;
-    }
-    
-    nav #logo::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 10rem;
-        height: 4.5rem;
-        background: #a7a7a7;
-        border-radius: 11%;
-        -webkit-transform: translate(-5%, -12%);
-                transform: translate(-5%, -12%);
-        mix-blend-mode: screen;
-    }
-    
-    nav .ubi {
-        background: #a7a7a7;
-        padding: 1rem 2rem;
-        border-radius: 2rem;
-    }
-    
+	font-size: 62.5%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+table {
+	padding-left: 250px;
+	padding-right: 180px;
+}
+
+th {
+	padding-right: 80px;
+	font-size: 18px;
+	color: white;
+	font-family: "Montserrat", sans-serif;
+}
+
+img {
+	border: 5px solid black;
+}
+
+body {
+	background: radial-gradient(#525252, #131313);
+	font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+	font-size: 2.5rem;
+	font-family: "Lobster", cursive;
+	font-weight: lighter;
+	color: white;
+}
+
+h2 {
+	font-size: 8rem;
+	padding-left: 555px;
+	color: white;
+	font-family: "Lobster", cursive;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+p {
+	font-size: 2.5rem;
+}
+
+li {
+	font-size: 2rem;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+.nav-container {
+	background: #070707;
+}
+
+nav {
+	width: 80%;
+	margin: auto;
+	min-height: 10vh;
+	padding: 3rem 0rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+nav ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	list-style: none;
+	opacity: 1;
+}
+
+nav ul li a {
+	color: #fff;
+	font-size: 18px;
+	padding: 10px;
+	border-radius: 2px;
+}
+
+nav ul li a:hover {
+	color: #000;
+	background: #fff;
+	text-decoration: none;
+	border-radius: 2rem;
+}
+
+nav #logo {
+	-webkit-box-flex: 2;
+	-ms-flex: 2;
+	flex: 2;
+	position: relative;
+}
+
+nav .ubi {
+	background: #a7a7a7;
+	padding: 1rem 2rem;
+	border-radius: 2rem;
+}
